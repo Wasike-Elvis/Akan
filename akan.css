@@ -1,0 +1,18 @@
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Header{
+  font-size: 40px;
+  font-weight: bold;  
+  text-align: center;
+}
+ol{
+font-size: 18px;
+color: blue;
+}
+h3{
+    color: red;
+    font-size: 25px bold;
+}
