@@ -22,3 +22,14 @@ h3{
     font-weight: bolder;
     
 }
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: green;
+}
