@@ -36,3 +36,6 @@ h1{
 .Form{
     margin-left: 30%;
 }
+.Input input{
+    width: 70px;
+}
