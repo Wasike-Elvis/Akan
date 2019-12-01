@@ -2,7 +2,7 @@
 @import url('font-awesome.css');
 @import url('animate.css');
 body{
-    background-image: url(images/bg\ 10.jpeg);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,15 +13,15 @@ body{
 }
 ol{
 font-size: 18px;
-color: blue;
+color: yellowgreen;
 }
 h3{
-    color: rgb(38, 0, 255);
-    font-size: 30px bold;
+    color: red;
+    font-size: 40px bold;
     font-family: Century;
 }
 .find{
-    color: darkblue;
+    color:  red;
     font-size: 20px;
     font-weight: bolder;
     
@@ -44,4 +44,11 @@ h1{
 }
 .Input input{
     width: 70px;
+}
+.summary
+{
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font: 18px;
 }
