@@ -52,8 +52,14 @@ h1{
     font-style: normal;
     font: 18px;
 }
-.radio{
-    color: green;
-    font-weight: bolder;
-    font-size: 18px;
+.dates{
+    text-align: center;
+}
+ul{
+    color: red;
+    list-style: inside;
+    text-align: left;
+}
+.akanform{
+    text-align: center;
 }
