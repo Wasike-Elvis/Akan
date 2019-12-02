@@ -58,27 +58,43 @@
             </div>
           </div>
           </div>
-          <div class="form">
-          <form>
-            <label>Input date of birth and select gender</label>
-            <div class="Input">
-            
-            <input type="text" name="date" placeholder="date">
-           
-            <input type="text" name="month" placeholder="month">
-            
-            <input type="text" name="year" placeholder="year"><br><br>
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-
-              </div>
-            <input type="submit" value="Submit" onclick="function getAkanName()">&nbsp;&nbsp;
-            <input type="reset">
-          </form>
+          <div class="col-md-6 main-right">
+            <div class="form">
+                <form name="akanform" onsubmit="return false" >
+                    <div class="dates">
+                        <ul>
+                            <li>
+                                <label for="">Date of Birth</label>
+                            </li>
+                            <li>
+                                <input type="date" class="dob" name="mydate" id="mydate" >
+                            </li>
+                            <li><div class = "errormessage" id = "mydateerror"></div></li>
+                        </ul>
+                    </div>
+                    <div class="gender">
+                        <ul>
+                            <li>
+                                <label for="">Gender</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" value="male" class="radio" id="male">Male
+                                <input type="radio" name="gender" value="female" class="radio"  id="female" style="margin-left: 40px;">Female
+                            </li>
+                            <li><div class = "errormessage" id = "gendererror"></div></li>
+                        </ul>
+                        
+                    </div>  
+                    <input type="submit" name="submit" class="button" value="Generate" onclick="validate()"  style="margin-left: 40px;">
+                    <input type="reset" onclick="refresh(); return false;" class="button" value="Refresh">	
+                </form>
+                <hr>
+                <div class="diplay" id="display"></div>
+          
           </div>
           </body>
 </html>
-<script src="script.js"></script>
+<script src="scripts.js"></script>
 <script src="js/jquery-3.4.1.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

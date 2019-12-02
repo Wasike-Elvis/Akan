@@ -39,11 +39,11 @@ h1{
     font-style: italic;
     color: white;
 }
-.form{
+.Akanform{
     margin-left: 30%;
 }
 .Input input{
-    width: 70px;
+    width: 150px;
 }
 .summary
 {
@@ -51,4 +51,9 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font: 18px;
+}
+.radio{
+    color: green;
+    font-weight: bolder;
+    font-size: 18px;
 }
