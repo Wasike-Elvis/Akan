@@ -1,6 +1,4 @@
-@import url('bootstrap.min.css');
-@import url('font-awesome.css');
-@import url('animate.css');
+
 body{
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
@@ -57,9 +55,19 @@ h1{
 }
 ul{
     color: red;
-    list-style: inside;
+    list-style: none;
     text-align: left;
+    
 }
-.akanform{
+.form{
+    padding-right: 60px;
+}
+.diplay{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: large;
     text-align: center;
+}
+label{
+    color: white;
 }
