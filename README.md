@@ -11,7 +11,10 @@ Akan naming website is a full package and there are no issues of bugs and concer
 ## Technologies Used
 The Akan naming website was developed using HTML5, CSS Bootstrap and Javascript. This languages have made it possible for me to make the Akan naming website.
 ## Support and contact details
-Incase of any issues arising from using the Akan naming website kindly reach out to me via email as wasikeelvis9@gmail.com. This will be an easier way of us communicating and also making me able to verify and correct the errors and make the website for efficient and reliable.
+Incase of any issues arising from using the Akan naming website kindly reach out to me via email as wasikeelvis9@gmail.com. This will be an easier way of us communicating and also making me able to verify 
+and correct the errors and make the website for efficient and reliable.
+## code review c275ec88-53a4-45d8-9c8c-50213d045c43
+9f:97:bb:35:eb:b7:8c:16:79:1a:b6:9f:17:52:db:68
 ### License
 MIT License
 
